@@ -7,7 +7,7 @@ while (num <= 2)
     num = Convert.ToInt32(Console.ReadLine());
 }
 
-while (count < num)
+while (count <= num)
 {
     if (count % 2 == 0)
     {
